@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg{
+    height: 100vh;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.display{
+    /* background: rgb(200, 255, 0); */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.display input{
+    background: rgb(94, 94, 94);
+    text-align: right;
+    flex: 1;
+    font-size: 30px;
+    box-shadow: none;
+    color: rgb(255, 255, 255);
+    width: 30vh;
+}
+.cal{
+    background: rgb(43, 43, 43);
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.num{
+    margin-top: 5vh;
+}
+#eq{
+    background-color: orange;
+}
+.calbtn{
+    background-color: rgb(51, 51, 51);
+    border: 0;
+    outline: 0;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    font: 29px;
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    height: 60px;
+    width: 60px;
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr); */
+      
+}
+
+.calbtn:hover{
+    background-color: rgb(79, 79, 79);
+    
+}
+
+.calbtn:active{
+    transform: scale(0.8);
+}
+
